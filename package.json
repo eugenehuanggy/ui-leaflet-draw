@@ -13,7 +13,7 @@
   "dependencies": {
     "angular": "1",
     "leaflet": "0.7",
-    "leaflet-draw": "git://github.com/michaelguild13/Leaflet.draw.git#master",
+    "leaflet-draw": "git://github.com/Leaflet/Leaflet.draw.git#master",
     "ui-leaflet": "1"
   },
   "devDependencies": {

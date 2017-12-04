@@ -12,7 +12,11 @@ angular.module('ui-leaflet')
         'deleted'
         'drawstart'
         'drawstop'
-        'editstart'
+        'drawvertex'
+        'editstart',
+        'editmove',
+        'editresize',
+        'editvertex',
         'editstop'
         'deletestart'
         'deletestop'].map (n) ->

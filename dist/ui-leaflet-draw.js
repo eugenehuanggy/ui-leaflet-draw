@@ -3,7 +3,7 @@
  *
  * @version: 0.0.5
  * @author: Nicholas McCready
- * @date: Fri Jun 30 2017 20:28:47 GMT+0800 (+08)
+ * @date: Mon Dec 04 2017 17:57:57 GMT+0800 (+08)
  * @license: MIT
  */
 
@@ -22,7 +22,7 @@
       }
 
       DrawEvents.prototype.getAvailableEvents = function() {
-        return ['created', 'edited', 'deleted', 'drawstart', 'drawstop', 'editstart', 'editstop', 'deletestart', 'deletestop'].map(function(n) {
+        return ['created', 'edited', 'deleted', 'drawstart', 'drawstop', 'drawvertex', 'editstart', 'editmove', 'editresize', 'editvertex', 'editstop', 'deletestart', 'deletestop'].map(function(n) {
           return 'draw:' + n;
         });
       };

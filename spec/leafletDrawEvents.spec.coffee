@@ -27,7 +27,11 @@ describe 'leafletDrawEvents', ->
         'deleted',
         'drawstart',
         'drawstop',
+        'drawvertex',
         'editstart',
+        'editmove',
+        'editresize',
+        'editvertex',
         'editstop',
         'deletestart',
         'deletestop'].map (n) -> 'draw:' + n
